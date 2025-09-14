@@ -1,0 +1,22 @@
+1. How could this prompt be written to be the most effective in achieving the result I want? Is there a better way to even phrase what I want?
+
+2. Write this in different ways to see if you can make the language more intelligible conceptually using more generalized language without losing any of the unique ideas, concepts, or thoughts.
+
+3. I would prefer to do a full cycle of inquiry, testing, and refinement before choosing a direction.
+
+4. I am not looking to add things that further advance the concepts presented here, but I would like to make sure everything I need to accomplish the objectives I laid out are there.
+
+5. Similar to that, is there anything else at this highest of levels need to be considered now? Try to be exhaustive and comprehensive when thinking about the possibilities within the given scope.
+
+6. Which term do think would be most understood by a general audience?
+
+-I want to think about how I could approach this at a high level.
+-What other use cases am I not considering?
+-I am not well versed in this subject matter at all. Are there any areas of knowledge or practices I could be completely overlooking that are related directly and indirectly?
+-I want to start with the smallest possible starting point that is scalable as far a template. I would rather start with perhaps an over simple approach that I can incrementally expand and improve over time than some a group of new elements.
+-Right now I want to be as general purpose as possible to start as I want to leave the door open for any development as the system gets underway.
+-I want to exhaustively and comprehensively index all the ideas related to this in all categories as I like to choose among options and synthesize my own ultimate solution in an executive role with you doing the presenting and filling out.
+
+7. Objectively list all things related to this term:
+
+8. Ok I want to begin the git and website implementation. I am a rookie so I need to walk through each step in small bits with detailed instructions.

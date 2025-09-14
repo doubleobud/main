@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Life OS</title>
+  <style>
+    :root { --w: 820px; --pad: 16px; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: #ffffff; color: #111111;
+    }
+    .wrap { max-width: var(--w); margin: 0 auto; padding: var(--pad); }
+    h1,h2,h3 { line-height: 1.25; margin: 1.1em 0 .5em; }
+    p, ul, ol, pre, code, blockquote { margin: .7em 0; }
+    a { color: #0b61ff; text-decoration: underline; }
+    code { background: #f2f4f7; padding: .1rem .3rem; border-radius: 4px; }
+    pre  { background: #f2f4f7; padding: .8rem; border-radius: 8px; overflow: auto; }
+
+    /* High-contrast dark mode */
+    @media (prefers-color-scheme: dark) {
+      body { background: #0d0f12; color: #ffffff; }
+      a { color: #7bb0ff; }
+      code, pre { background: #14161a; color: #ffffff; }
+    }
+  </style>
+</head>
+<body>
+  <main id="app" class="wrap"></main>
+
+  <!-- Edit this Markdown; save + refresh -->
+  <script type="text/markdown" id="md">
+# Welcome
+
+This page is rendered from **Markdown** with no external libraries.
+Edit this block at the bottom of `index.html`, save, and refresh.
+
+## Project
+- Git repo initialized
+- `9-Archive/` ignored by `.gitignore`
+- Next: GitHub Pages
+
+Example command:
+
+    git status
+
+  </script>
+
+  <script>
+    // ---- Tiny offline Markdown renderer (headings, lists, code, links, bold/italics) ----
+    const escapeHtml = s => s.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    const mdsrc = document.getElementById('md').textContent.replace(/\r\n/g, '\n').trim();
+
+    // Code fences first (support indented code blocks only to keep file copy-paste safe)
+    let parts = [];
+    (function splitFences() {
+      // Split by blank line + 4-space indented blocks
+      const lines = mdsrc.split('\n');
+      let buf = []; let codeBuf = []; let inCode = false;
+      for (const line of lines) {
+        if (/^\s{4,}/.test(line)) { inCode = true; codeBuf.push(line.replace(/^\s{4}/, '')); }
+        else {
+          if (inCode) { parts.push({type:'md', text: buf.join('\n')}); buf = [];
+                        parts.push({type:'code', text: codeBuf.join('\n')}); codeBuf = []; inCode = false; }
+          buf.push(line);
+        }
+      }
+      if (inCode) { parts.push({type:'md', text: buf.join('\n')}); buf = [];
+                   parts.push({type:'code', text: codeBuf.join('\n')}); codeBuf = []; inCode = false; }
+      const remaining = buf.join('\n');
+      if (remaining) parts.push({type:'md', text: remaining});
+    })();
+
+    const renderInline = txt => {
+      // links
+      txt = txt.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_,$1,$2)=>`<a href="${escapeHtml($2)}">${escapeHtml($1)}</a>`);
+      // code
+      txt = txt.replace(/`([^`]+)`/g, (_,$1)=>`<code>${escapeHtml($1)}</code>`);
+      // bold then italics
+      txt = txt.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+      txt = txt.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+      return txt;
+    };
+
+    const renderBlock = txt => {
+      const lines = txt.split('\n');
+      let html = '', inList = false;
+
+      const flushList = () => { if (inList) { html += '</ul>'; inList = false; } };
+
+      for (let raw of lines) {
+        const line = raw.replace(/\s+$/,'');
+        if (!line.trim()) { flushList(); continue; }
+
+        // headings
+        let m;
+        if (m = line.match(/^###\s+(.*)$/)) { flushList(); html += `<h3>${renderInline(m[1])}</h3>`; continue; }
+        if (m = line.match(/^##\s+(.*)$/))  { flushList(); html += `<h2>${renderInline(m[1])}</h2>`; continue; }
+        if (m = line.match(/^#\s+(.*)$/))   { flushList(); html += `<h1>${renderInline(m[1])}</h1>`; continue; }
+
+        // list item
+        if (m = line.match(/^\s*[-*]\s+(.*)$/)) {
+          if (!inList) { html += '<ul>'; inList = true; }
+          html += `<li>${renderInline(m[1])}</li>`;
+          continue;
+        }
+
+        // paragraph
+        flushList();
+        html += `<p>${renderInline(line)}</p>`;
+      }
+      flushList();
+      return html;
+    };
+
+    let out = '';
+    for (const p of parts) {
+      if (p.type === 'code') {
+        out += `<pre><code>${escapeHtml(p.text.trim())}</code></pre>`;
+      } else {
+        out += renderBlock(p.text);
+      }
+    }
+
+    document.getElementById('app').innerHTML = out || '<p>(No content)</p>';
+  </script>
+</body>
+</html>

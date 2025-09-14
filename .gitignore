@@ -1,0 +1,14 @@
+# Ignore system clutter
+Thumbs.db
+Desktop.ini
+.vscode/
+.DS_Store
+
+# Ignore temporary/junk files
+*.tmp
+*.log
+*.bak
+~$*
+
+# Ignore Archive section (everything under 9-Archive)
+9-Archive/

@@ -1,0 +1,373 @@
+00 System & Intake
+    00.01 Inbox
+        ├─ To-File
+        ├─ To-Read
+        └─ To-Tag
+    00.02 Staging (Quarantine / Unsorted)
+    00.03 Templates & Skeletons
+        ├─ Folder Skeletons
+        ├─ Doc Templates
+        └─ Naming & ID Rules
+    00.04 Standards & Charters
+        ├─ Folder System Charter
+        ├─ ADRs (Architecture Decision Records)
+        └─ Policies (Backup, Security, Retention)
+    00.05 Shortcuts & Indexes
+        ├─ Global INDEX.md
+        └─ Cross-links (symlinks/aliases)
+
+10 Identity & Vital Records
+    10.01 Identification
+        ├─ Passports
+        ├─ Driver Licenses
+        ├─ Birth/Marriage Certificates
+        └─ Social Security / National IDs
+    10.02 Personal Profiles
+        ├─ CV/Resume
+        ├─ Biographical Notes
+        └─ Portraits & Signatures
+    10.03 Credentials & Keys
+        ├─ Licenses & Memberships
+        ├─ Digital Certificates
+        └─ Recovery Codes (secure)
+
+11 Health & Wellbeing
+    11.01 Medical Records
+        ├─ Providers (by clinic)
+        ├─ Visits (YYYY)
+        ├─ Labs & Imaging
+        ├─ Diagnoses & Care Plans
+        └─ Immunizations
+    11.02 Insurance (Health/Dental/Vision)
+    11.03 Medications & Allergies
+    11.04 Fitness & Biometrics
+        ├─ Training Plans
+        ├─ Measurements (YYYY)
+        └─ Reports & Trends
+    11.05 Mental Health & Practices
+    11.06 Nutrition
+
+12 Family & Relationships
+    12.01 Household Admin
+        ├─ Calendars & Routines
+        ├─ Childcare/Eldercare
+        └─ Shared Agreements
+    12.02 Family Members (one subfolder per person)
+    12.03 Events & Milestones (Weddings, Births, Funerals)
+    12.04 Genealogy
+
+13 Home & Property
+    13.01 Residences (one per address)
+        ├─ Deeds/Leases
+        ├─ Utilities & Accounts
+        ├─ Maintenance Logs
+        ├─ Renovations & Permits
+        └─ Photos & Floorplans
+    13.02 Household Inventory
+        ├─ Appliances
+        ├─ Furniture
+        └─ Valuations & Receipts
+    13.03 Services & Vendors
+    13.04 Insurance (Home/Renters)
+    13.05 Energy & Sustainability (Solar, HVAC)
+
+14 Finance & Wealth
+    14.01 Banking
+        ├─ Checking/Savings (one per institution)
+        └─ Statements (YYYY)
+    14.02 Budget & Planning
+        ├─ Budgets (YYYY)
+        └─ Reports
+    14.03 Investing
+        ├─ Brokerage
+        ├─ Retirement
+        ├─ Real Estate
+        └─ Alternatives
+    14.04 Taxes
+        ├─ YYYY
+        │   ├─ W-2/1099/T4 etc.
+        │   ├─ Receipts
+        │   └─ Filed Returns
+        └─ Tax Strategy
+    14.05 Loans & Debt
+    14.06 Insurance (Life/Disability/Auto/Umbrella)
+    14.07 Philanthropy & Giving
+
+15 Legal & Compliance
+    15.01 Contracts & Agreements
+        ├─ Employment
+        ├─ Consulting
+        ├─ NDAs
+        └─ Services
+    15.02 Intellectual Property
+        ├─ Copyright
+        ├─ Trademarks
+        └─ Patents
+    15.03 Licenses & Permits
+    15.04 Disputes & Matters
+    15.05 Compliance & Privacy
+
+16 Employment & Career
+    16.01 Jobs & Employers (one per employer)
+        ├─ Offers & Onboarding
+        ├─ Performance
+        ├─ Benefits
+        └─ Offboarding
+    16.02 Professional Development
+        ├─ Certifications
+        ├─ Conferences
+        └─ Portfolio
+    16.03 Compensation & Equity
+
+17 Business & Entities
+    17.01 Entities (LLC/Corp) (one per entity)
+        ├─ Formation
+        ├─ Governance (Board, Minutes)
+        ├─ Finance (Accounting, Invoices)
+        ├─ Legal & Compliance
+        ├─ HR & Payroll
+        ├─ Operations
+        └─ Taxes (YYYY)
+    17.02 Products & Services
+    17.03 Sales & CRM
+    17.04 Marketing & Brand
+
+18 Education & Learning
+    18.01 Formal Education (Schools/Degrees)
+        ├─ Transcripts
+        ├─ Coursework
+        └─ Certificates
+    18.02 Courses & MOOCs
+    18.03 Skill Development (by skill)
+    18.04 Teaching & Syllabi
+
+19 Travel & Mobility
+    19.01 Trips (YYYY – Destination)
+        ├─ Itineraries
+        ├─ Bookings
+        └─ After-Action & Photos
+    19.02 Visas & Immigration
+    19.03 Programs & Loyalty
+    19.04 Vehicles
+        ├─ Ownership & Title
+        ├─ Insurance
+        └─ Service & Logs
+
+20 Personal Projects (Active)
+    20.01 Ideas & Proposals
+    20.02 Roadmaps & Plans
+    20.03 Execution (one subfolder per project)
+        ├─ Discovery
+        ├─ Design
+        ├─ Build
+        ├─ Test
+        ├─ Launch
+        └─ Post-Launch
+    20.04 Reviews & Postmortems
+    20.05 Archive (Completed)
+
+21 Work Projects (Active)
+    21.01 Clients (one per client)
+    21.02 Projects (one per project)
+        ├─ Charter & Scope
+        ├─ Requirements
+        ├─ Design/Architecture
+        ├─ Implementation
+        ├─ QA & Validation
+        ├─ Delivery
+        └─ Operations
+    21.03 Program & Portfolio Mgmt
+    21.04 Risk & Decisions (RAIDs, ADRs)
+    21.05 Archive (Completed)
+
+22 Community & Open Source
+    22.01 Initiatives
+    22.02 Repos & Contributions
+    22.03 Events & Meetups
+    22.04 Grants & Sponsorships
+    22.05 Archive
+
+23 Events & Productions
+    23.01 Conferences (YYYY – Name)
+    23.02 Talks & Workshops
+    23.03 Exhibitions & Shows
+    23.04 Archive
+
+24 Hobbies & Recreation
+    24.01 Sports & Outdoors
+    24.02 Games & Collectibles
+    24.03 Maker/DIY
+    24.04 Pets & Animal Care
+    24.05 Archive
+
+25 Media Library (Reference, not production)
+    25.01 Books & PDFs
+        ├─ By Author
+        └─ By Subject
+    25.02 Music
+        ├─ Artists
+        └─ Albums/Tracks
+    25.03 Photos & Albums (YYYY)
+    25.04 Video & Film
+    25.05 Podcasts & Audiobooks
+
+26 Creative Production (Writing/Music/Video/Art)
+    26.01 Writing
+        ├─ Ideas
+        ├─ Drafts
+        ├─ Edited
+        ├─ Published
+        └─ Rights & Contracts
+    26.02 Audio/Music
+        ├─ Ingest
+        ├─ Sessions (DAW)
+        ├─ Stems
+        ├─ Mix/Master
+        └─ Releases
+    26.03 Video
+        ├─ Ingest
+        ├─ Edits
+        ├─ Masters
+        └─ Deliverables
+    26.04 Visual/Design
+        ├─ Sources
+        ├─ Working
+        └─ Exports
+    26.05 Archive
+
+27 Food & Household Ops
+    27.01 Recipes (by cuisine/type)
+    27.02 Meal Plans (YYYY-WW)
+    27.03 Shopping & Pantry
+    27.04 Household SOPs & Checklists
+
+28 Preparedness & Emergency
+    28.01 Safety Plans
+    28.02 Medical & First Aid
+    28.03 Go-Bags & Supplies
+    28.04 Insurance & Contacts (quick-access)
+
+29 Spiritual/Values/Reflection (optional)
+    29.01 Practices
+    29.02 Community/Service
+    29.03 Writings & Journals (curated)
+
+30 Knowledge & Research
+    30.00 Methods & Meta (how to research, note systems)
+    30.10 000–099 Generalities, Info, CS
+        ├─ 000 Knowledge, Systems, Libraries
+        ├─ 004–006 Computing, AI, Data
+        └─ 070 Publishing/Media
+    30.20 100–199 Philosophy & Psychology
+    30.30 200–299 Religion
+    30.40 300–399 Social Sciences (Econ, Law, Education)
+    30.50 400–499 Language & Linguistics
+    30.60 500–599 Science (Math, Physics, Bio)
+    30.70 600–699 Applied Sciences (Eng, Medicine, Tech)
+    30.80 700–799 Arts & Recreation
+    30.90 800–899 Literature
+    30.95 900–999 History & Geography
+
+40 Technology & Infrastructure
+    40.01 Devices & Hardware (one per device)
+        ├─ Specs & Receipts
+        ├─ Config & Backups
+        └─ Repairs
+    40.02 Operating Systems & Images
+    40.03 Software & Licenses
+    40.04 Cloud & Accounts (AWS/GCP/Azure/Drive/etc.)
+        ├─ Accounts & Billing
+        ├─ Architecture & IaC
+        └─ Policies & IAM
+    40.05 Data & Storage
+        ├─ Schemas & Dictionaries
+        ├─ Backups & Recovery
+        └─ Archives & Snapshots
+    40.06 Networking & HomeLab
+    40.07 Security & Keys (vaulted)
+        ├─ Threat Models
+        ├─ Secrets & Rotations
+        └─ Audit & Incidents
+    40.08 Automation & Integrations
+    40.09 Observability (Monitoring/Logs)
+
+60 Mega-Project (Simulation/Game Universe)
+    60.01 Vision & Strategy
+        ├─ Purpose & Principles
+        ├─ Roadmaps (YYYY-Q)
+        └─ OKRs & Metrics
+    60.02 World & Systems Design
+        ├─ Planetary/Biosphere Simulation
+        ├─ Economics & Trade
+        ├─ Organizations & Society
+        ├─ Tech Trees & Research
+        └─ Balancing & Tuning
+    60.03 AI & Agents
+        ├─ Agent Models & Behaviors
+        ├─ Knowledge Graphs
+        ├─ Opponent AI (RTS/Grand Strategy)
+        └─ Verification & Safety
+    60.04 Game Design
+        ├─ Core Loops & Progression
+        ├─ Mechanics & Systems
+        ├─ UI/UX (Historical UI progression)
+        └─ Pacing & Difficulty
+    60.05 Code & Engineering
+        ├─ Architecture & ADRs
+        ├─ ECS & Query Patterns
+        ├─ Services & APIs
+        ├─ CI/CD & Tooling
+        └─ Tests & Benchmarks
+    60.06 Content & Narrative
+        ├─ Lore & Canon
+        ├─ Characters & Dialog
+        ├─ Diaries/Logs (in-universe)
+        └─ Release Notes as Stories
+    60.07 Assets & Pipelines
+        ├─ Visuals (Concept/Models/Textures)
+        ├─ Audio/Music (Gen/Compose/Mix)
+        ├─ Cinematics
+        └─ Build & Export (Masters/Deliverables)
+    60.08 Docs & Knowledge
+        ├─ Tutorials / How-to / Explanation / Reference (Diátaxis)
+        ├─ API Docs
+        └─ Player Guides
+    60.09 Ops & Publishing
+        ├─ Community & Moderation
+        ├─ Marketing & Brand
+        └─ Releases & Distribution
+    60.10 Legal/Finance/HR (Project-specific)
+    60.11 Research & Experiments
+    60.12 Logs & Journals (YYYY/MM/DD)
+    60.13 Risk, Security & Compliance
+    60.14 Archive (by major release)
+
+70 Community & Civic
+    70.01 Voting & Civic Records
+    70.02 Community Projects
+    70.03 Volunteering & Service
+    70.04 Organizations & Clubs
+    70.05 Advocacy & Policy
+
+80 Archives & Records
+    80.01 Personal Time Capsule (YYYY)
+    80.02 Yearbooks (YYYY → Highlights, Letters, Wins/Losses)
+    80.03 Raw Archives (unsorted legacy)
+    80.04 Migrations (from old drives/services)
+
+81 Journals & Logs
+    81.01 Daily (YYYY → YYYY-MM → YYYY-MM-DD)
+    81.02 Weekly/Monthly Reviews
+    81.03 Project Logs (link to JD codes)
+    81.04 Health Logs (link to 11.x)
+
+90 Estate & Legacy
+    90.01 Wills & Trusts
+    90.02 Digital Legacy (accounts & instructions)
+    90.03 Funeral & End-of-Life Wishes
+    90.04 Heir Guides & Checklists
+
+99 Meta & Experiments
+    99.01 Sandbox (structure experiments)
+    99.02 Deprecated (to be refactored)
+    99.03 Audits & Reviews
