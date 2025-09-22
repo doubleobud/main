@@ -1,0 +1,65 @@
+Welcome to my website and project!
+
+When you think about yourself and what actually makes up "you", it's possible to conceptualize yourself in various ways. Obvious ones is to think of your physical body as you. You see it constantly in action and get a more complete image of yourself in the a mirror, but we know that is not really you or at least a complete picture of how you are.
+
+You are also a collection of thoughts and behaviors that are harder to define at times. In fact, there a multitude of attitudes and beliefs you hold that you are not even aware you express along with myriad other elements about yourself that are unquantifiable.
+
+We all know from the life we live out inside our mind, that the experience of life can seem random and chaotic especially mentally. Reactions and thoughts just happen it seems often or always.
+
+There are even a host of measureable things about you that you could evaluate, but we fall forward through time without even realizing there is a data to be measured and analyzed.
+
+Then there is the constant struggle of the will between what you want and what you think you should be doing. If you leave your decision making down to the last moment, you are operating from a place of reaction and chaos it can often seem like.
+
+These ideas are familiar and definitely nothing new. Many would even say that this unstructured and sometimes random feeling flow of life is just how it is or even desirable for the freest spirits among us.
+
+For me however I have dreamed since my teenage years of being able to somehow understand both myself and my environment in a competent way that allows me to make good decisions based on my needs and goals. More than that, trying to will myself to the outcomes I would like to produce will my time, effort, and attention.  All of this requires it's own time and effort to produce these conditions for success.
+
+Time and effort is just one element preventing us from leading the kind of lives we want, it's also about having the knowledge, planning, and execution to be able to expend that time and effort.
+
+Hell even keep what I think about one thing consistent with another is hard enough. It easy to find yourself taking contradicting positions on similar issues or in the basest case just not being able to deny an impulse that you acknowledge in that moment is counter to your larger desires and goals.
+
+I am circling many things here. Let's take a step back and boil down all these scattered points into the first principles of what I am getting at conceptually that is seems to be a problem.
+
+[INSERT FIRST PRINCIPLES SECTION HERE]
+
+Again I hear skeptical readers right now thinking that these "limitations" are just part of the human condition with no good answers and thus there is no use in trying to fight against these forces.
+
+Honestly that is probably true, but I want to take a unique approach in some senses to try to tackle the various core problems we have identified.
+
+Let me begin with a [NOT SURE]. Tranhumanism has been a subject I have day dreamed what the far future may look like or even how I wish I had certain technologies to compensate for and offset my human frailties.
+
+It's easy to think of bionic legs that can help you jump higher than anyone and on and on, but I like to think of the mental improvements. What if I had a perfect memory or could recall my position on any given issue with clarity. What if I had all kind of information about myself that I could use to inform my decision making and choices? What if I had a consistent vision and intention that was less swayed by the demands of the moment due to my intellectual consistency?
+
+Ok now anyone interested in this kind of subject matter will point out quickly that there are all kinds of ways to collect data to inform decisions or research and plan ahead to make good choices.
+
+That is true, and there are many resources that point to many, many different methodologies. However, looking at what is out there it seems as if I am looking a pile of systems with no unifying element that ties it together and gives an overall cohesion of an approach.
+
+So what can be done? I have some things rattling around in my mind that I just should write out in freeform and then we can make sense of them and organize everything. In no particular order:
+
+a. collecting measurable, numeric data like recording your weight each day
+b. collecting qualitative numeric data like polling yourself on various issues or rating things using rubrics and algorhythms of judgement factors etc.
+c. gamification in all it's forms and fashions
+d. writing things and using LLMs to analyze, summarize, and find patterns etc.
+e. a knowledge database to store all parameters and provide context for advising and decision making for both human, LLMs, algos/functions etc.
+f. using the hook of developing your "character"
+g. create a full "digital twin" of yourself composed of all this data and data processing methods and the systems to support their implementation etc.
+h. think of it as creating a characterization of yourself where all aspects of you are captured which allows various benefits like reflection, motivation, awareness, experimentation and even entertainment
+i. your "character" is comprised of the totality of your logged experiences, decisions, and other data (stored on your computer for safety) and you can even be tested in virtual scenarios that could evolve into sophisticated video game experiences which provide further data about how you acted etc.
+j. you could also start designing an agent like system where the person's characterization can adopt behaviors to operate in simulation autonomously to see how the person might respond and to reflect etc.
+k. use the ideas of an entity-component-system where we can create entities of attached components and systems. The components and systems are the data and processes we use to create the characterizations which should translate well
+l. this project can be used to organize, plan, and administrate your like from as well for example you input your schedule elements to provide data which also serves as a planner which also be plugged into your knowledge base allows context engineered LLM recommendations
+m. words can be a huge part of the dataset as LLMs can process all this think lists of values, decision making systems, and any other conceivable process, structure, tool, or guide all stored and accessible for use when needed
+n. there will need to be some nuance between idealized images of ourselves and our actual behavior not just to expose inconsistency but also to present a higher goal to reach for when we do fall short or even to consider the ideal as unhealthy etc.
+o. think of building your character or agent in little pieces as I add new elements and then you interact with them to provide data and we keep adding and refining and revisiting the things that make up your characterization ie character
+p. what are all the ways I can create qualitative and quantitative data? what about the process, functions, algorhythms I will use to simulate and model 
+q. I will pilot the entire process on myself and my characterization first and then allow users to do the same with increasing, incremental complexity will and end goal of creating fully realized simulation universe to test and pilot characters in for various purposes
+r. elevator pitch-a sophisticated character builder
+s. automation wherever possible will be required especially using AI systems
+t. need to research all the best practices from character elements from games like character screens and sheets, mechanics, simulation aspects etc.
+u. this project will provide full self-tracking benefits as well which can be easily understood in changes to the character over time in a sort of RPG style time based progression and use system in that what you do is what you become
+v. the ultimate purpose is provide purpose, structure, intentionality, and process to life in a sort of life operating system built around characterization and gamification concepts along with whatever can give useful shape to the data and functions
+x. there will need to be full exploration of what data is and how it is processed to result in a comprehensive and exhaustive indexing of ideas
+y. the character of you experiences a 24 hour timeline which could be played out both according to your actual actions or in a simulated environment
+z. fun and entertainment experiences can be part of this project using your character at any point
+
+Ok I feel no other ideas flowing at the moment.

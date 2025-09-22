@@ -1,0 +1,35 @@
+Welcome to the project!
+
+The project currently consists of the simplest possible starting foundation I could conceive of.
+
+I am using the Unity engine to produce what is essentially a stripped down digital novel structure to start with.
+
+There are many reasons for starting this experience like this, but the two to focus on now are my lack of any experience making a game and that I wanted you to experience and participate, to different extents, in the building of the project from it's very nascent foundations.
+
+If you downloaded this game from Steam, you must have read the pitch. I will restate it here for completeness.
+
+We are going to build a simulation universe that we can also interact with in various ways. I also want to interact with and "play" within the simulation as well as design and build it.
+
+In fact, I conceptualize of this project as a lifelong commitment that is ever-expanding in increments to create an increasingly depth and complex simulation with more asnd more ways to interact with it.
+
+Despite these grandiose plans, at the current moment we can only display text and you can only hit the spacebar to advance the text after the screen fills up.
+
+---
+
+Even with these limitations, we can begin to make decisions and declare facts to give more shape to the project. Let's recap the ones we already have.
+
+Decision 1: Simulation Universe-We are building a simulation universe we can interact with in various ways.
+Fact 1: Simulation Universe-This project is building a simulation universe that can also be interacted with in various ways.
+Decision 2: Long-Term Increments-This project is long-term effort that should be expanded in small increments.
+Decision 3: Simplest Start-We are starting the experience from the simplest conceivable, yet extensible starting point.
+
+---
+
+Now we should formalize a decision log and a fact log. Later these may morph into more complex areas, but for now we will just store these items in a simple log list. Once I have these, we can continue. Since I have to depart for a time, I would like to add a timest
+
+
+
+
+
+
+
