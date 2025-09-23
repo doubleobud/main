@@ -1,5 +1,5 @@
 ---
-id: "0-00-000"   # Use folder-position ID (Domain-Subdomain-FileNo). Stable, never changes even if title changes.
+id: "0-20-101"   # Use folder-position ID (Domain-Subdomain-FileNo). Stable, never changes even if title changes.
 title: "Process Library"
 status: draft
 created: 2025-09-19
@@ -336,6 +336,9 @@ Table of Contents
 #### Skill Laddering / Progression Design
 #### Coaching Plans & Accountability
 #### Learning Reflection & Journals
+- title: "High Concept Teaching"
+  description: "Provide an explanation of a subject at the highest conceptual level, focusing on overarching principles and frameworks before moving into detail."
+  types: Prompt
 #### Portfolio / Artifact Building
 
 ---
